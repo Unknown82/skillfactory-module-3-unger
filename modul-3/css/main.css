@@ -1,0 +1,571 @@
+/* ------ Подключение шрифтов ------ */
+
+@font-face {
+font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/MuseoSansCyrl-100.eot');
+    src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-100.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-100.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg');
+    font-weight: 100;
+   
+}
+
+@font-face {
+font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/MuseoSansCyrl-900.eot');
+    src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-900.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-900.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900') format('svg');
+    font-weight: 900;
+    
+}
+
+@font-face {
+ font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/MuseoSansCyrl-300.eot');
+    src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-300.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+    font-weight: 300;
+    
+}
+
+/* ------ Спецификация ------ */
+
+body {
+	font-family: 'Museo Sans Cyrl', 'Stroke Gap Icons', sans-serif;
+	font-size: 18px;
+	color: #3a3244;
+	padding: 0;
+	letter-spacing: 0.06em;
+	margin: 0;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-family: Roboto Slab, sans-serif;
+}
+
+h1 {
+	font-size: 49px;
+	letter-spacing: 0.12em;
+}
+
+h2 {
+	font-size: 37px;
+	letter-spacing: 0.1em;
+}
+
+h3 {
+	color: #9e96a8;
+}
+
+h4 {
+	font-size: 15px;
+	font-weight: 900;
+	letter-spacing: 0.1em;
+}
+
+h5 {
+	font-size: 10px;
+	letter-spacing: 0.1em;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+a, button, input {
+	transition: all 0.5s ease;
+}
+
+.d-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active
+
+ {
+	outline: none;
+}
+
+/* ------ Первый экран ------ */
+
+.header {
+	background: #2f2f43 url(../img/page.jpg) no-repeat center top / cover;
+	padding-top: 54px;
+	padding-bottom: 82px;
+	color: #fff;
+	text-align: center;
+}
+.nav {
+}
+.nav__logo {
+
+}
+.nav__menu {
+}
+
+.nav__item {
+}
+
+.nav__link {
+	font-weight: 900;
+	font-size: 15px;
+	color: #fff;
+	padding: 7px 20px;
+	text-transform: uppercase;
+}
+
+.nav__link:hover {
+	background: #000;
+	color: #fff;
+	border-radius: 5px;
+}
+.nav__title {
+	margin-top: 294px;
+	margin-bottom: 11px;
+}
+.nav__text {
+	margin: 0;
+	font-weight: 100;
+	font-size: 29px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+.nav__mail {
+	font-size: 15px;
+	font-weight: 300;
+	color: #fff;
+}
+
+.nav-down {
+	background: transparent;
+	font-size: 17px;
+	width: 39px;
+	height: 39px;
+	display: block;
+	border-radius: 50%;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 31px;
+    margin-top: 255px;
+    background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-down:hover {
+	background: transparent;
+	background: #fff;
+	color: #181815;
+}
+
+/* ------ обо мне ------ */
+
+.about {
+	padding-top: 87px;
+}
+.about__title {
+	margin-bottom: 70px;
+
+}
+.about-wrapper {
+
+}
+
+.about-start {
+	width: 438px;
+}
+
+.about-start__title {
+	margin-bottom: 38px;
+}
+
+.about-start__text {
+	font-family: 'Roboto'
+	font-size: 15px;
+	font-weight: 300;
+	margin-bottom: 1.0em;
+    line-height: 1.7em;
+}
+.kont {
+	width: 470px;
+}
+.kont__top {
+	
+}
+.kont__title {
+	margin-bottom: 56px;
+}
+.kont__list {
+	margin-right: 18px;
+	text-align: center;
+	width: 92%;
+	margin-bottom: 51px;
+	flex-wrap: wrap;
+	display: flex;
+    justify-content: space-between;
+   
+}
+.kont__item {
+	margin-left: 40px;
+
+}
+.kont__zahl {
+	width: 72px;
+	border: 2px solid #3e6534;
+	height: 72px;
+	text-align: center;
+	position: relative;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 38px;
+    transform:rotate(45deg);
+}
+.kont__zahl p {
+	transform:rotate(-45deg);
+	color: #204d15;
+	font-size: 20px;
+    font-weight: 100;
+}
+
+.kont__zahl:after {
+	content:'';
+	display: block;
+	position: absolute;
+	width: 57px;
+	height: 57px;
+	border: 1px solid #cddbc3;
+	
+}
+.kont__text {
+	width: 72px;
+	font-size: 12px;
+	font-weight: 100;
+	line-height: 1.7em;
+	display: flex;
+    justify-content: center;
+}
+.konter {
+
+}
+.konter__title {
+	margin-bottom: 22px;
+
+}
+.konter__wrap {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.konter__link {
+	line-height: 33px;
+	width: 200px;
+	margin-right: 17px;
+}
+.konter__item {
+	font-size: 14px;
+	color: #204d15;
+	text-decoration: underline;
+}
+.user {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.user__wrap {
+	width: 63px;
+	height: 63px;
+	border-radius: 50px;
+	background: #eef1ed;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 6px;
+}
+.user__icon {
+
+}
+.user__text {
+	font-weight: 300;
+	font-size: 14px;
+}
+
+/* ------ Навыки ------ */
+.exper {
+
+}
+.exper__title {
+	margin-top: 75px;
+	margin-bottom: 54px;
+
+}
+.experen {
+
+}
+.experen__list {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.experen__wrap {
+	width: 201px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+.experen__item {
+	font-size: 13px;
+	width: 61px;
+	border: 2px solid #3e6534;
+	height: 61px;
+	position: relative;
+	border-radius: 50px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 27px;
+}
+.experen__item:after {
+	content:'';
+	display: block;
+	position: absolute;
+	border-radius: 50px;
+	width: 46px;
+	height: 46px;
+	border: 1px solid #cddbc3;
+	
+}
+.experen__text {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+/* ------ Работы ------ */
+.routes {
+
+}
+.routes__title {
+	margin-top: 82px;
+	margin-bottom: 58px;
+}
+.route-list {
+
+}
+
+.route-list__item {
+	width: 296px;
+	transition: all 0.5s ease;
+}
+
+.route-list__overlay {
+	background: rgba(0,0,0,0.64);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.route-list__wrap {
+	position: relative;
+}
+
+.route-list__item:hover .route-list__overlay  {
+	opacity: 1;
+}
+
+.route-list__img {
+	box-shadow: 0 8px 32px rgba(0,0,0,0.32);
+	width: 100%;
+	height: auto;
+}
+.route__text {
+	display: block;
+	font-size: 15px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.route__text1 {
+	font-size: 13px;
+	font-weight: 300;
+	text-decoration: underline;
+}
+
+
+/* ------ Футер ------ */
+
+.footer {
+	font-size: 11px;
+	font-weight: 300;
+	color: #9e96a8;
+	padding-top: 121px;
+	padding-bottom: 110px;
+	text-transform: uppercase;
+}
+
+.footer-wrap__item {
+	text-align: center;
+}
+
+
+/* ------ Media Queries ------ */
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+	
+}
+
+/* 768-992px */
+@media screen and (max-width: 992px) {
+	.nav {
+		flex-direction: column;
+	}
+	.container {
+		width: 700px;
+	}
+	.route-list__item {
+	    width: 30%;
+	}
+	.route-list__img {
+		width: 100%;
+	}
+	.about-start, .kont {
+		width: 90%;
+	}
+	
+}
+
+/* 576-768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 520px;
+	}
+	.about-wrapper {
+		flex-direction: column;
+	}
+	.about-start, .key {
+		width: 100%;
+	}
+	.footer-wrap {
+		flex-direction: column;
+	}
+	.footer-wrap__item {
+		margin-bottom: 20px;
+	}
+}
+
+/* 320-576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.nav {
+		flex-direction: column;
+	}
+	.nav__menu {
+		flex-direction: column;
+	}
+	h1 {
+		font-size: 26px;
+	}
+	.konter__wrap {
+		flex-direction: column;
+	}
+	.kont__list {
+		width: 57%;
+	}
+	.kont__item {
+		margin-bottom: 20px
+	}
+	.experen__list {
+		flex-direction: column;
+	}
+	.experen__wrap {
+		margin-bottom: 20px
+	}
+	.route-list {
+		flex-direction: column;
+	}
+	.route-list__item {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+}
+
+
+
+
+
